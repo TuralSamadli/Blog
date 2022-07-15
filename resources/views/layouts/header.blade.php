@@ -9,7 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keyword" content="resume,cv,portfolio,vcard">
-	<title> GFolio - CV/Resume/Portfolio </title>
+	<title> Tural Bog Website - CV/Resume/Portfolio </title>
 	<!-- favicon -->
 	<link rel="shortcut icon" href="{{asset('assets/images/favicon.png" type="image/x-icon') }}">
 	<!-- bootstrap -->
