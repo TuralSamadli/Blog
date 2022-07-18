@@ -20,27 +20,28 @@ use App\Http\Requests\UserMessages;
 
 
 class HomePageContoller extends Controller
-{
-    public function index(){
-        $contact=contact::where('id',1)->first();
-        $about=about::where('id',1)->first();
-        return view('homepage', compact('contact','about'));
 
-    }
-    // public function user_messages(UserMessages $request)
-    // {
-    //     $send = UserMessages::create([
-    //         'name'      => $request->name,
-    //         'email'     => $request->email,
-    //         'subject'   => $request->subject,
-    //         'message'   => $request->message
-            
-    //     ]);
-    //     if ($send)
-    //     {
-    //         return redirect()->route('home');
-    //     }
-       
-    // }
-
-}
+    {
+        public function index(){
+            $info = contact::where('id', 1)->first();
+            $about = about::where('id', 1)->first();
+            return view('homepage', compact('contact','about'));
+        }
+    
+    //      public function user_messages(UserMessages $request)
+    //      {
+    //          $send = UserMessages::create([
+    //              'name'      => $request->name,
+    //              'email'     => $request->email,
+    //              'subject'   => $request->subject,
+    //              'message'   => $request->message
+                
+    //          ]);
+    //          if ($send)
+    //          {
+    //              return redirect()->route('home');
+    //          }
+           
+    //      }
+    
+     }
